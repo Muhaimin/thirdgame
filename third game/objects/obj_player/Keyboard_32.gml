@@ -9,8 +9,8 @@ var attack_pause = alarm_get(0);
 /// @DnDVersion : 1
 /// @DnDHash : 3CB00A1B
 /// @DnDArgument : "var" "attack_pause"
-/// @DnDArgument : "op" "3"
-if(attack_pause <= 0){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "op" "1"
+if(attack_pause < 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 491F47FA
 	/// @DnDParent : 3CB00A1B
