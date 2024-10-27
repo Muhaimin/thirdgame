@@ -20,5 +20,5 @@ hp = hp - 10;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 0FF10892
-/// @DnDArgument : "steps" "1*room_speed"
-alarm_set(0, 1*room_speed);
+/// @DnDArgument : "steps" "20"
+alarm_set(0, 20);
