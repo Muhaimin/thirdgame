@@ -38,10 +38,9 @@ if(!(hp == 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 37653651
 			/// @DnDParent : 0582F2E0
-			/// @DnDArgument : "steps" "20"
 			/// @DnDArgument : "steps_relative" "1"
 			/// @DnDArgument : "alarm" "1"
-			alarm_set(1, 20 + alarm_get(1));}}}
+			alarm_set(1, 30 + alarm_get(1));}}}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
